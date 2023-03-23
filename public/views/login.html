@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            background-color: #f2f2f2;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        input{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        
+            </style>
+</head>
+<body>
+    <form id="log-in-form">
+        <!-- <label for="name">Name:</label>
+        <input type="text" class="entry-field" id="name" required> -->
+        <label for="eamil">Email:</label>
+        <input type="text" class="entry-field" id="email" required>
+        <label for="password">Password:</label>
+        <input type="text" class="entry-field" id="password" required>
+        <button type="submit">Login</button>
+    </form>
+    <div>
+        <button type="button" id="fgt-btn">Forgot Password</button>
+    </div>
+    <div>
+        <a href="signup.html">New User? Click Here.</a>
+    </div>
+    <div id="error">
+        <h3 id="error-text"></h3>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.2/axios.min.js"></script>
+<script src="login.js"></script>
+</html>

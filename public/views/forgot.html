@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <style>
+        body{
+            background-color: #f2f2f2;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        input{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        
+            </style>
+</head>
+<body>
+    <form id="forgot-password-form">
+        <!-- <label for="name">Name:</label>
+        <input type="text" class="entry-field" id="name" required> -->
+        <label for="eamil">Email:</label>
+        <input type="text" class="entry-field" id="email" required>
+        <!-- <label for="password">Password:</label>
+        <input type="text" class="entry-field" id="password" required> -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.2/axios.min.js"></script>
+<script src="forgot.js"></script>
+</html>
